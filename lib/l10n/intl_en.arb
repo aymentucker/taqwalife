@@ -1,1 +1,7 @@
-{}
+{
+    "notifications": "Notifications",
+    "no_new_notifications": "No new notifications",
+    "delete_all": "Delete All",
+    "just_now": "Just now"
+  }
+  

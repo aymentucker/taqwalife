@@ -49,6 +49,46 @@ class S {
   static S? maybeOf(BuildContext context) {
     return Localizations.of<S>(context, S);
   }
+
+  /// `Notifications`
+  String get notifications {
+    return Intl.message(
+      'Notifications',
+      name: 'notifications',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No new notifications`
+  String get no_new_notifications {
+    return Intl.message(
+      'No new notifications',
+      name: 'no_new_notifications',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Delete All`
+  String get delete_all {
+    return Intl.message(
+      'Delete All',
+      name: 'delete_all',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Just now`
+  String get just_now {
+    return Intl.message(
+      'Just now',
+      name: 'just_now',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

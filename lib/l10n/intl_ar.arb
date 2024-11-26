@@ -1,1 +1,7 @@
-{}
+{
+    "notifications": "الاشعارات",
+    "no_new_notifications": "لا يوجد اشعارات جديدة",
+    "delete_all": "مسح الكل",
+    "just_now": "الآن"
+  }
+  

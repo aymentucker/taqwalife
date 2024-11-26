@@ -21,5 +21,11 @@ class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'ar';
 
   final messages = _notInlinedMessages(_notInlinedMessages);
-  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{};
+  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "delete_all": MessageLookupByLibrary.simpleMessage("مسح الكل"),
+        "just_now": MessageLookupByLibrary.simpleMessage("الآن"),
+        "no_new_notifications":
+            MessageLookupByLibrary.simpleMessage("لا يوجد اشعارات جديدة"),
+        "notifications": MessageLookupByLibrary.simpleMessage("الاشعارات")
+      };
 }
